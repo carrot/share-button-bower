@@ -7,17 +7,24 @@
   ],
   "description": "fast, beautiful, and painless social shares.",
   "main": [
-	  "./share-button.js",
-	  "./share-button.css"
-	],
+    "./share-button.js",
+    "./share-button.css"
+  ],
   "moduleType": [
-    "globals",
     "amd",
+    "globals",
     "node"
   ],
   "keywords": [
     "share",
     "social"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
